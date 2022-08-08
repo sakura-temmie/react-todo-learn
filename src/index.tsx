@@ -12,14 +12,14 @@ const root = ReactDOM.createRoot(
 );
 
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
       <BrowserRouter>
       <>
         <Route exact path="/" component={App} />
         <Route exact path="/login" component={Login} />
       </>
     </BrowserRouter>
-  </React.StrictMode>
+  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
